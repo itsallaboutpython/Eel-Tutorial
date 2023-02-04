@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <style>
+        body{
+            background: rgb(205, 205, 205);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid px-5 py-5" id="main-container">
+        <div class="container-fluid bg-white py-3 px-5">
+            <span class="fs-4">Welcome</span>
+            <hr>
+            <div class="container-fluid d-flex flex-row justify-content-center align-items-end">
+                <label for="" class="form-label" style="min-width: 120px;">Enter title: </label>
+                <input type="text" class="form-control" id="todo-title-input" minlength="5" maxlength="50" placeholder="Practice piano">
+                <button type="submit" style="min-width: 80px; margin-left: 30px;" class="btn btn-primary" id="todo-add-btn">Add &plus;</button>
+            </div>
+            <div class="container-fluid mt-3">
+                <table class="table fs-6 fw-normal">
+                    <thead>
+                        <th>Title</th>
+                        <th>Completed</th>
+                    </thead>
+                    <tbody id="todo-table-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="/eel.js" ></script>
+    <script src="jquery/jquery.js"></script>
+    <script src="bootstrap/bootstrap.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
