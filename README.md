@@ -6,7 +6,6 @@ Open terminal and type the following command
 ```
 git clone https://github.com/visheshdvivedi/Eel-Tutorial
 ```
-Or you can directly download from this page\
 Once downloaded, go to the downloaded folder, open command prompt there and type\
 ```
 pip install -r requirements.txt
