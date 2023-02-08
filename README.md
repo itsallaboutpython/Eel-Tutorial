@@ -1,6 +1,6 @@
 # Todo App (Eel Tutorial)
 ## Demo Todo desktop app created using Python and eel
-[![ADD VIDEO LINK](https://img.youtube.com/vi/6ufFHT0fNWQsdfs/0.jpg)](https://www.youtube.com/watch?v=6ufFHT0fNWQ)
+[![ADD VIDEO LINK](https://img.youtube.com/vi/Bh8pYfwFjA0/0.jpg)](https://www.youtube.com/watch?v=Bh8pYfwFjA0)
 ### Installation
 Open terminal and type the following command
 ```
